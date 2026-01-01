@@ -1,0 +1,25 @@
+{
+  "name": "cookie2kara",
+  "version": "1.0.0",
+  "description": "Sync cookies from Cookie Cloud to KaraKeep format",
+  "main": "cookie2kara.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node cookie2kara.mjs",
+    "watch": "node cookie2kara.mjs --watch",
+    "sync": "node cookie2kara.mjs"
+  },
+  "dependencies": {
+    "cross-fetch": "^4.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "cookie",
+    "sync",
+    "karakeep",
+    "cookie-cloud"
+  ],
+  "author": "",
+  "license": "MIT"
+}
